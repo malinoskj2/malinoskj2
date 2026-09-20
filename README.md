@@ -1,12 +1,19 @@
 <div id="profile-card" align="center">
   <img align="right" src="assets/moon-knight-ribbon.gif" alt="A knight resting on a pink crescent moon against a deep blue sky." width="25%">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-framed-mocha.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/profile-framed-latte.svg">
-    <img src="assets/profile-framed-latte.svg" alt="Hi, I'm Jesse — software engineer in South Carolina. PHP, TypeScript, Rust, Java, Lua, Nix. Vue, Laravel, Docker, Wayland, Linux. Building things · configuring linux · collecting pixels." width="68%">
-  </picture>
+  <br>
+  <h3>hi, i'm Jesse <img src="assets/crescent.svg" alt="" width="28" height="28"></h3>
+  <p><samp>software engineer · south carolina</samp></p>
+  <br>
+  <p><samp>PHP · TypeScript · Rust · Java · Lua · Nix<br>Vue · Laravel · Docker · Wayland · Linux</samp></p>
   <p>
-    <samp><a href="https://github.com/malinoskj2?tab=repositories">projects ↗</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://malinoskj2.dev">contact ↗</a></samp>
+    <img src="assets/stars-left.svg" alt="" width="38" height="28">
+    &nbsp;
+    <img src="assets/sword-divider.gif" alt="An animated sword" width="200">
+    &nbsp;
+    <img src="assets/stars-right.svg" alt="" width="38" height="28">
   </p>
+  <p><samp>building things · configuring linux · collecting pixels</samp></p>
+  <br>
+  <p><samp><a href="https://github.com/malinoskj2?tab=repositories">projects ↗</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://malinoskj2.dev">contact ↗</a></samp></p>
   <br clear="all">
 </div>
