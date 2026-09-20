@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="104" viewBox="0 0 620 104" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Jesse</title>
+  <desc id="desc">Software engineer in South Carolina</desc>
+  <g text-anchor="middle" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="310" y="45" fill="#303446" font-size="34" font-weight="700">hi, i'm Jesse 👋</text>
+    <text x="310" y="76" fill="#6c6f85" font-size="15">software engineer · south carolina</text>
+  </g>
+</svg>
