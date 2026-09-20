@@ -13,6 +13,6 @@
 🎮 Godot • 2D/3D art workflows • Hunyuan3D
 ⚡ sched_ext • custom kernels • secure boot</pre>
   <br>
-  <a href="https://malinoskj2.dev"><img src="https://img.shields.io/badge/malinoskj2.dev-0969da?style=flat-square" alt="malinoskj2.dev"></a>
-  <img src="https://img.shields.io/badge/nix-5277c3?style=flat-square" alt="nix">
+  <a href="https://malinoskj2.dev"><img src="https://img.shields.io/badge/malinoskj2.dev-1e66f5?style=plastic&logo=firefoxbrowser&logoColor=white" alt="malinoskj2.dev"></a>
+  <a href="https://github.com/malinoskj2/nix"><img src="https://img.shields.io/badge/Nix-5277c3?style=plastic&logo=nixos&logoColor=white" alt="Nix configuration"></a>
 </div>
