@@ -17,8 +17,6 @@ else
 fi
 sed -i -E \
   -e '\#/__/grip/static/#d' \
-  -e '/prefers-color-scheme: dark/d' \
-  -e 's#<source media="[^"]*" #<source #g' \
   -e 's#(src|srcset)="https://camo\.githubusercontent\.com/[^"]*"([^>]*) data-canonical-src="([^"]*)"#\1="\3"\2#g' \
   -e "s#(assets/[^\"?]+\.svg)#\\1?v=$v#g" \
   -e "s#((src|srcset)=\"https?://[^\"?]*\?[^\"]*)\"#\\1\&v=$v\"#g" \

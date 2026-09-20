@@ -1,7 +1,10 @@
 <div id="profile-card" align="center">
   <img align="right" src="assets/knight-moon.png" alt="A knight resting on a crescent moon" width="25%">
-  <h1><samp>hi, i'm Jesse 👋</samp></h1>
-  <p><sub><samp>software engineer · south carolina</samp></sub></p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-mocha.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/title-latte.svg">
+    <img src="assets/title-latte.svg" alt="Hi, I'm Jesse — software engineer in South Carolina" width="70%">
+  </picture>
   <br><br>
   <pre>
 💼 Software engineer • South Carolina
