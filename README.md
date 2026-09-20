@@ -6,9 +6,7 @@
     <img src="assets/title-latte.svg" alt="Hi, I'm Jesse — software engineer in South Carolina" width="70%">
   </picture>
   <br>
-  <pre>💼 Software engineer • South Carolina
-💻 PHP • TypeScript • Rust • Java • Lua • Nix
-🧰 Vue • Laravel • Docker • Wayland • Linux</pre>
+  <p><samp>💼 Software engineer • South Carolina<br>💻 PHP • TypeScript • Rust • Java • Lua • Nix<br>🧰 Vue • Laravel • Docker • Wayland • Linux</samp></p>
   <img src="assets/sword-divider.gif" alt="" height="28">
   <br>
   <a href="https://malinoskj2.dev"><img src="https://img.shields.io/badge/malinoskj2.dev-0969da?style=flat" alt="malinoskj2.dev"></a>
