@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd "$(dirname "${BASH_SOURCE[0]}")"
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
 out=build
+
+python scripts/generate-profile.py
 
 args=(README.md --export "$out/index.html" --context=malinoskj2/malinoskj2)
 [[ -n "${GITHUB_TOKEN:-}" ]] && args+=(--pass="$GITHUB_TOKEN")
@@ -22,8 +24,10 @@ sed -i -E \
   -e "s#((src|srcset)=\"https?://[^\"?]*\?[^\"]*)\"#\\1\&v=$v\"#g" \
   -e "s#((src|srcset)=\"https?://[^\"?]*)\"#\\1?v=$v\"#g" \
   -e 's#<head>#<head><meta http-equiv="Cache-Control" content="no-store">#' \
+  -e 's#<html lang="en">#<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">#' \
   -e 's|</head>|<style>.Layout { display: block !important; } .Layout-main { width: 100% !important; }</style></head>|' \
   "$out/index.html"
+python scripts/style-preview.py "$out/index.html"
 cp -r assets "$out/assets"
 
 echo "file://$PWD/$out/index.html"
