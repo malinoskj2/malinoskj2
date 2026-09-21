@@ -25,7 +25,6 @@ body { margin: 0; background: var(--bgColor-default, #fff); color: var(--fgColor
 #readme .Box-title { font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-weight: 400; }
 #readme .Box-body { padding: 0 26px 26px !important; }
 #grip-content { font-size: 16px; }
-#grip-content samp { font-size: 14px; }
 #grip-content a { color: var(--fgColor-accent, #0969da); text-decoration: none; }
 #grip-content a:hover { text-decoration: underline; }
 #grip-content img { background: transparent; }
