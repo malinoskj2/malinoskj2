@@ -1,0 +1,13 @@
+{
+  "heading": "hi, i'm Jesse",
+  "subtitle": "software engineer · south carolina",
+  "languages": ["PHP", "TypeScript", "Rust", "Java", "Lua", "Nix"],
+  "tools": ["Vue", "Laravel", "Docker", "Wayland", "Linux"],
+  "footer": "building things · configuring linux · collecting pixels",
+  "links": [
+    {"label": "projects ↗", "url": "https://github.com/malinoskj2?tab=repositories"},
+    {"label": "contact ↗", "url": "https://malinoskj2.dev"}
+  ],
+  "knight_alt": "A knight resting on a pink crescent moon against a deep blue sky.",
+  "sword_alt": "An animated sword"
+}

@@ -4,6 +4,8 @@ set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 out=build
 
+python scripts/generate-profile.py
+
 args=(README.md --export "$out/index.html" --context=malinoskj2/malinoskj2)
 [[ -n "${GITHUB_TOKEN:-}" ]] && args+=(--pass="$GITHUB_TOKEN")
 
